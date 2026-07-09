@@ -3,11 +3,11 @@ export const Menu = () => {
     return (
         <StyledMenu>
             <ul>
-                <li><a href=""></a>Home</li>
-                <li><a href=""></a>Skills</li>
-                <li><a href=""></a>Works</li>
-                <li><a href=""></a>Testimony</li>
-                <li><a href=""></a>Contact</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Works</a></li>
+                <li><a href="">Testimony</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </StyledMenu>
     );
