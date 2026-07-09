@@ -3,7 +3,7 @@ import {Icon} from "../icon/Icon.tsx";
 export const Logo = () => {
     return (
         <a href="/">
-            <Icon iconId="node"/>
+            <Icon iconId="android" />
         </a>
     );
 };
