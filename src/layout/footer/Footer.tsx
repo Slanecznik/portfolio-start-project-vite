@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import {Icon} from "../components/icon/Icon.tsx";
-import {FlexWrapper} from "../components/FlexWrapper.tsx";
+import {Icon} from "../../components/icon/Icon.tsx";
+import {FlexWrapper} from "../../components/FlexWrapper.tsx";
 
 
 export const Footer = () => {

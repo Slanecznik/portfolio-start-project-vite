@@ -6,18 +6,18 @@ export const Main = () => {
     return (
         <StyledMain>
             <FlexWrapper align={"center"} justify={"space-around"}>
-            <div>
-                <Hi>Hi </Hi>
-                <Name>I am Uladzimir</Name>
-                <MainTitle>A Web Developer</MainTitle>
-            </div>
-            <Photo src={photo} alt={"vf"}/>
+                <div>
+                    <Hi>Hi </Hi>
+                    <Name>I am Uladzimir</Name>
+                    <MainTitle>A Web Developer</MainTitle>
+                </div>
+                <Photo src={photo} alt={"vf"}/>
             </FlexWrapper>
         </StyledMain>
     );
 };
 
-const StyledMain = styled.div`
+const StyledMain = styled.section`
     min-height: 100vh;
     background-color: #80d9ed;
 `
